@@ -51,7 +51,6 @@ spec:
         value: "-v --with-spec --spec-color"
       runAfter:
         - clone
-
     - name: build
       workspaces:
         - name: source
